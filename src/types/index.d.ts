@@ -1,0 +1,1 @@
+export type BeforeRequestListener = ((details: Electron.OnBeforeRequestListenerDetails, callback: (response: Electron.Response) => void) => void)
